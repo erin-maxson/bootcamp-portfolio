@@ -2,6 +2,7 @@
     --bg-color: wheat;
     --dark-color: sienna;
     --header-font: 'Koulen';
+    --header-fnt-color: wheat;
 }
 
 
@@ -11,7 +12,7 @@ header {
     text-align: center;
     font-family: 'Koulen';
     background-color: var(--dark-color);
-    color: wheat;
+    color: var(--header-fnt-color);
 }
 
 header nav { 
@@ -37,6 +38,7 @@ body {
 h2 {
     font-family: 'Koulen';
     padding: 10px;
+    color: saddlebrown;
 }
 
 p {
@@ -53,20 +55,6 @@ h3 {
     text-align: center;
     padding: 10px;
     font-family: 'Koulen';
-}
-
-.About-Content {
-    flex-basis: 20%;
-    border-right-color: purple;
-    border-right-width: 1px;
-    border-right-style: solid;  
-}
-
-.Title {
-    flex-basis: 20%;
-    border-right-color: purple;
-    border-right-width: 1px;
-    border-right-style: solid;
 }
 
 .Contact {
