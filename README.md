@@ -2,7 +2,9 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+This portfolio is meant to showcase my work, current and future, throughout the OSU Bootcamp program. It will feature links to the work projects and work I complete, my contact information, and other details. In the future, it can be used for future employers to review my skills and code. Instead of using a pre-built portfolio, I can now say I created my own portfolio from scratch versus using a website builder like WordPress. 
+
+In this project, I learned how to use CSS Grid, Flex, 
 
 - What was your motivation?
 - Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
