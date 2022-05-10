@@ -1,6 +1,6 @@
-root {
-    --bg-color: lavender;
-    --dark-color: blueviolet;
+:root {
+    --bg-color: wheat;
+    --dark-color: sienna;
     --header-font: 'Koulen';
 }
 
@@ -10,6 +10,8 @@ header {
     padding: 15px;
     text-align: center;
     font-family: 'Koulen';
+    background-color: var(--dark-color);
+    color: wheat;
 }
 
 header nav { 
@@ -28,14 +30,29 @@ header nav ul {
     text-decoration: underline;
 }
 
+body {
+    background-color: wheat;
+}
+
+h2 {
+    font-family: 'Koulen';
+    padding: 10px;
+}
+
 p {
     width: 100%;
     text-align: center;
 }
 
 figure {
-    border: 1px solid purple;
+    border: 1px solid sienna;
     height: 20vh;
+}
+
+h3 {
+    text-align: center;
+    padding: 10px;
+    font-family: 'Koulen';
 }
 
 .About-Content {
@@ -50,6 +67,12 @@ figure {
     border-right-color: purple;
     border-right-width: 1px;
     border-right-style: solid;
+}
+
+.Contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 #About-Me {
