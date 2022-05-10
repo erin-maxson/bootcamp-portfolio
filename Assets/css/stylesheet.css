@@ -1,9 +1,38 @@
-:root {
+/* :root {
 
+} */
+
+
+header {
+    background-color: lavender;
+    height: 20vh;
+    padding: 20px;
 }
 
-* {
-    background-color: peachpuff;
+header nav { 
+    padding: 30px;
+    display: right;
 }
 
+header nav h1 {
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header nav h1 ul li {
+    padding: 30px;
+    text-align: right;
+}
+
+figure {
+    border: 2px solid purple;
+    height: 20vh;
+}
+
+.Title {
+    flex-basis: 20%;
+    border-right-color: blueviolet;
+    border-right-width: 2px;
+    border-right-style: solid;
+}
 
