@@ -11,7 +11,7 @@ header {
     height: 20vh;
     padding: 15px;
     text-align: center;
-    font-family: 'Koulen';
+    font-family: var(--header-font);
     background-color: var(--dark-color);
     color: var(--header-fnt-color);
 }
@@ -21,7 +21,6 @@ header nav {
 }
 
 header nav h1 {
-    font-size: 30px;
     font-family: var(--header-font);
 }
 
@@ -30,17 +29,18 @@ header nav ul {
     flex-direction: row;
     justify-content: space-around;
     text-decoration: underline;
+    font-size: 20px;
 }
 
 body {
-    background-color: wheat;
+    background-color: var(--bg-color);
     font-family: var(--body-font);
 }
 
 h2 {
-    font-family: 'Koulen';
+    font-family: var(--header-font);
     padding: 10px;
-    color: saddlebrown;
+    color: var(--dark-color);
     font-size: 35px;
 }
 
@@ -64,16 +64,25 @@ figure {
 
 h3 {
     text-align: center;
-    padding: 10px;
-    font-family: 'Koulen';
+    padding: 20px;
+    font-family: var(--header-font);
+    font-size: 25px;
+    color: var(--bg-color);
+    background-color: var(--dark-color);
+
 }
 
 .Contact {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    background-color: var(--dark-color);
+    padding: 20px;
+    color: var(--bg-color)
+
 }
 
 #About-Me {
     font-family: var(--header-font);
+    display: right;
 }
