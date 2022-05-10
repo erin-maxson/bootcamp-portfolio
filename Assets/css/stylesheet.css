@@ -58,7 +58,7 @@ p {
 }
 
 figure {
-    border: 1px solid sienna;
+    border: 2px solid sienna;
     height: 20vh;
 }
 
@@ -72,6 +72,19 @@ h3 {
 
 }
 
+.Title {
+    flex-basis: 20%;
+    border-right-color: var(--dark-color);
+    border-right-width: 2px;
+    border-right-style: solid;
+}
+
+.Content {
+    flex-basis: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .Contact {
     display: flex;
     flex-direction: row;
@@ -82,7 +95,19 @@ h3 {
 
 }
 
+.Other-Projects {
+    flex-basis: 50%;
+    border: 2px solid var(--dark-color);
+    height: 30vh;
+}
+
 #About-Me {
     font-family: var(--header-font);
     display: right;
+}
+
+#First-Project {
+    flex-basis: 100%;
+    border: 2px solid var(--dark-color);
+    height: 60vh;
 }
