@@ -1,12 +1,12 @@
 root {
     --bg-color: lavender;
     --dark-color: blueviolet;
-    --header-font: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    --header-font: 'Koulen';
 }
 
 
 header {
-    background-color: var(--bg-color);
+    background-color: var(--dark-color);
     height: 2vh;
     padding: 15px;
     text-align: center;
@@ -29,25 +29,3 @@ header nav ul {
     justify-content: space-around;
     background-color: var(--dark-color);
 }
-
-header ul li {
-    display: inline;
-    text-decoration: underline;
-}
-
-h2 {
-    font-family: var(--header-font)
-}
-
-figure {
-    border: 2px solid var(--dark-color);
-    height: 20vh;
-}
-
-.Title {
-    flex-basis: 1%;
-    border-right-color: var(--dark-color);
-    border-right-width: 2px;
-    border-right-style: solid;
-}
-
