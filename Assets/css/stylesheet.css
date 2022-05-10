@@ -44,7 +44,7 @@ h2 {
     font-size: 35px;
 }
 
-img {
+.About-Content img {
     align-items: center;
     border-radius: 200px;
 }
@@ -77,6 +77,14 @@ h3 {
     border-right-color: var(--dark-color);
     border-right-width: 2px;
     border-right-style: solid;
+}
+
+.center img {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    max-width: 100%;
+    max-height: auto;
 }
 
 .Content {
