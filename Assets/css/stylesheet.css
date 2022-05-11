@@ -60,6 +60,7 @@ p {
 figure {
     border: 2px solid sienna;
     height: 20vh;
+    width: auto;
 }
 
 h3 {
@@ -79,12 +80,12 @@ h3 {
     border-right-style: solid;
 }
 
-.monument {
+/* .monument {
     width: 100%;
     min-height: 50%;
     justify-content: center;
     size: 100% 33%;
-}
+} */
 
 .About-Content img {
     display: flex;
@@ -105,7 +106,7 @@ h3 {
 }
 
 .Content {
-    flex-basis: 80%;
+    /* flex-basis: 80%; */
     display: flex;
     flex-wrap: wrap;
 }
@@ -131,8 +132,20 @@ h3 {
     display: right;
 }
 
-#First-Project {
+/* #First-Project {
     flex-basis: 100%;
     border: 2px solid var(--dark-color);
     height: 60vh;
+} */
+
+.First-Project-Img {
+    flex-basis: 100%;
+    object-fit: contain;
+    /* height: 200px; */
+    width: 100%;
+    /* max-width: 100%;
+    max-height: 100%;
+    /* width: 100%;
+    /* height: 100%; */
+    /* height: 20vh; */
 }
