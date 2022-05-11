@@ -32,6 +32,10 @@ header nav ul {
     font-size: 20px;
 }
 
+a {
+    color: mediumturquoise;
+}
+
 body {
     background-color: var(--bg-color);
     font-family: var(--body-font);
@@ -74,12 +78,11 @@ h3 {
     border-right-style: solid;
 }
 
-.About-Content {
-    background-image: url(https://images.unsplash.com/photo-1509316785289-025f5b846b35?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1476&q=80);
-    background-position: center;
-    background-size: 100%;
-    background-blend-mode: rgba(0,0,0,0.5);
-    flex-basis: 50%;
+.monument {
+    width: 100%;
+    min-height: 50%;
+    justify-content: center;
+    size: 100% 33%;
 }
 
 .About-Content img {
@@ -90,11 +93,11 @@ h3 {
     margin-right: auto;
     width: 10%;
     border-radius: 400px;
+    padding: 10px;
 }
 
-.center img {
-    display: flex;
-    align-items: center;
+.left img {
+    display: left;
     width: 50%;
     max-width: 100%;
     max-height: auto;
@@ -104,12 +107,6 @@ h3 {
     flex-basis: 80%;
     display: flex;
     flex-wrap: wrap;
-}
-
-.Info {
-    display: flex;
-    flex-wrap: wrap;
-    flex-basis: 50%;
 }
 
 .Contact {
