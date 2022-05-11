@@ -58,8 +58,8 @@ p {
 }
 
 figure {
+    flex-basis: 80%;
     border: 2px solid sienna;
-    height: 20vh;
     width: auto;
 }
 
@@ -138,8 +138,8 @@ h3 {
     height: 60vh;
 } */
 
-.First-Project-Img {
-    flex-basis: 100%;
+.First-Project {
+    /* flex-basis: 100%; */
     object-fit: contain;
     /* height: 200px; */
     width: 100%;
