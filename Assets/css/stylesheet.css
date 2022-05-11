@@ -32,7 +32,7 @@ header nav ul {
     font-size: 20px;
 }
 
-a {
+li a {
     color: mediumturquoise;
 }
 
@@ -54,6 +54,7 @@ p {
     font-family: var(--body-font);
     padding: 10px;
     line-height: 1.5rem;
+    color: black;
 }
 
 figure {
@@ -125,7 +126,7 @@ h3 {
     height: 30vh;
 }
 
-#About-Me {
+.About-Me {
     font-family: var(--header-font);
     display: right;
 }
