@@ -45,12 +45,18 @@ h2 {
 }
 
 .About-Content {
-    background-image: url(https://media.istockphoto.com/vectors/western-landscape-with-deserted-valley-and-river-vector-id1298667596?k=20&m=1298667596&s=612x612&w=0&h=iCE7sgD7P1TKoZcQNGNDx9lHftpHJX7oEmN4AbdzNl8=);
+    background-image: url(https://images.unsplash.com/photo-1509316785289-025f5b846b35?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1476&q=80);
+    background-position: center;
+    background-size: 100%;
+    background-blend-mode: rgba(0,0,0,0.5);
 }
 
 .About-Content img {
-    align-items: center;
-    border-radius: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    border-radius: 400px;
 }
 
 p {
