@@ -177,6 +177,16 @@ footer {
     height: auto;
 }
 
+.article {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 30px;
+    background-color: turquoise;
+    padding: 10px;
+}
+}
+
 #Code-Project {
     position: absolute;
     bottom: 8px;
