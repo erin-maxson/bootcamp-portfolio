@@ -6,7 +6,6 @@
     --body-font: 'Radio Canada';
 }
 
-
 header {
     height: 20vh;
     padding: 15px;
@@ -62,7 +61,6 @@ figure {
     text-align: center;
     color: white;
     flex-basis: 80%;
-    border: 2px solid sienna;
     width: auto;
 }
 
@@ -111,30 +109,29 @@ h4 {
     flex-wrap: wrap;
 }
 
+.About-Me {
+    font-family: var(--header-font);
+    display: right;
+}
+
 .Contact {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     background-color: var(--dark-color);
     padding: 20px;
-    color: var(--bg-color)
-
+    color: var(--bg-color);
 }
 
 .First-Project {
-    object-fit: contain;
     width: 100%;
+    height: auto;
 }
 
 .Other-Projects {
     flex-basis: 50%;
     border: 2px solid var(--dark-color);
     height: 30vh;
-}
-
-.About-Me {
-    font-family: var(--header-font);
-    display: right;
 }
 
 #Code-Project {
