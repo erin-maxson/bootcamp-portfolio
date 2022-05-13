@@ -172,31 +172,13 @@ footer {
 
 .Other-Projects {
     display: flex;
+    flex-direction: row;
     flex-basis: 50%;
     flex-wrap: wrap;
     height: auto;
 }
 
 .article {
-    position: absolute;
-    bottom: 8px;
-    left: 16px;
-    font-size: 30px;
-    background-color: turquoise;
-    padding: 10px;
-}
-}
-
-#Code-Project {
-    position: absolute;
-    bottom: 8px;
-    left: 16px;
-    font-size: 30px;
-    background-color: turquoise;
-    padding: 10px;
-}
-
-#Form-Project {
     position: absolute;
     bottom: 8px;
     left: 16px;
