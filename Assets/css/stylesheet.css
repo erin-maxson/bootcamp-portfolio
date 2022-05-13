@@ -38,28 +38,44 @@ li a {
     text-decoration: none;
 }
 
+/* Body font & colors */
 body {
+    /* background color */
     background-color: var(--bg-color);
+    /* font family */
     font-family: var(--body-font);
 }
 
+/* h2 formatting */
 h2 {
+    /* font family for h2 */
     font-family: var(--header-font);
+    /* adding padding around h2 */
     padding: 10px;
+    /* h2 font color */
     color: var(--dark-color);
+    /* h2 font size */
     font-size: 35px;
 }
 
+/* paragraph formatting */
 p {
+    /* width of paragraph */
     width: 100%;
+    /* aligning paragraph text to center */
     text-align: center;
+    /* paragraph font family */
     font-family: var(--body-font);
+    /* paragraph padding 10px top/bottom */
     padding: 10px;
+    /* paragraph line height 1.5x front size */
     line-height: 1.5rem;
+    /* paragraph color is black */
     color: black;
 }
 
-figure #First-Project {
+/* Figure formatting */
+figure {
     display: flex;
     flex-basis: 100%;
     /* position: relative; */
@@ -77,12 +93,19 @@ figure .Other-Projects {
     width: auto;
 } */
 
+/* h3 formatting */
 h3 {
+    /* h3 alignment = center */
     text-align: center;
+    /* h3 padding is 20px */
     padding: 20px;
+    /* h3 font family */
     font-family: var(--header-font);
+    /* h3 font size */
     font-size: 25px;
+    /* font color */
     color: var(--bg-color);
+    /* background color */
     background-color: var(--dark-color);
 }
 
