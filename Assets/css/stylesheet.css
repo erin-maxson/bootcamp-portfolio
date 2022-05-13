@@ -78,7 +78,7 @@ p {
 figure {
     display: flex;
     flex-basis: 100%;
-    /* position: relative; */
+    position: relative;
     text-align: center;
     color: white;
     width: auto;
@@ -114,6 +114,11 @@ h4 {
     font-size: 16px;
     /* h4 font family */
     font-family: 'Koulen';
+}
+
+footer {
+    text-align: center;
+    font-size: 20px;
 }
 
 .Title {
