@@ -83,15 +83,12 @@ figure {
     color: white;
     width: auto;
 }
-/* 
+
+
 figure .Other-Projects {
     display: flex;
     flex-basis: 50%;
-    position: relative;
-    text-align: center;
-    color: white;
-    width: auto;
-} */
+}
 
 /* h3 formatting */
 h3 {
@@ -109,9 +106,13 @@ h3 {
     background-color: var(--dark-color);
 }
 
+/* h4 formatting */
 h4 {
+    /* h4 centered */
     text-align: center;
+    /* h4 font size = 16px */
     font-size: 16px;
+    /* h4 font family */
     font-family: 'Koulen';
 }
 
@@ -188,3 +189,5 @@ h4 {
     background-color: turquoise;
     padding: 10px;
 }
+
+/* Media Query + Responsiveness */
