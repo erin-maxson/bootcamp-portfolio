@@ -58,6 +58,9 @@ p {
 }
 
 figure {
+    position: relative;
+    text-align: center;
+    color: white;
     flex-basis: 80%;
     border: 2px solid sienna;
     width: auto;
@@ -138,5 +141,8 @@ h3 {
 #Code-Project {
     position: absolute;
     bottom: 8px;
-    right: 16px;
+    left: 16px;
+    font-size: 30px;
+    background-color: turquoise;
+    padding: 10px;
 }
