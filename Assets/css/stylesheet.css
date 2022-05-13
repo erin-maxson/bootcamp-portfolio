@@ -73,7 +73,6 @@ h3 {
     font-size: 25px;
     color: var(--bg-color);
     background-color: var(--dark-color);
-
 }
 
 h4 {
@@ -122,6 +121,11 @@ h4 {
 
 }
 
+.First-Project {
+    object-fit: contain;
+    width: 100%;
+}
+
 .Other-Projects {
     flex-basis: 50%;
     border: 2px solid var(--dark-color);
@@ -131,17 +135,6 @@ h4 {
 .About-Me {
     font-family: var(--header-font);
     display: right;
-}
-
-/* #First-Project {
-    flex-basis: 100%;
-    border: 2px solid var(--dark-color);
-    height: 60vh;
-} */
-
-.First-Project {
-    object-fit: contain;
-    width: 100%;
 }
 
 #Code-Project {
