@@ -16,13 +16,14 @@ header {
     color: var(--header-fnt-color);
 }
 
+/* Nav formatting */
 nav {
+    /* adds space between title + nav */
     padding: 30px;
+    /* font-family for nav lists */
+    font-family: var(--header-font)
 }
 
-nav h1 {
-    font-family: var(--header-font);
-}
 
 nav ul {
     display: flex;
