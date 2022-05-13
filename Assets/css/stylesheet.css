@@ -21,9 +21,8 @@ nav {
     /* adds space between title + nav */
     padding: 30px;
     /* font-family for nav lists */
-    font-family: var(--header-font)
+    font-family: var(--header-font);
 }
-
 
 nav ul {
     display: flex;
