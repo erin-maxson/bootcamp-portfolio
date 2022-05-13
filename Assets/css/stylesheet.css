@@ -80,13 +80,6 @@ h3 {
     border-right-style: solid;
 }
 
-/* .monument {
-    width: 100%;
-    min-height: 50%;
-    justify-content: center;
-    size: 100% 33%;
-} */
-
 .About-Content img {
     display: flex;
     flex-wrap: wrap;
@@ -106,7 +99,6 @@ h3 {
 }
 
 .Content {
-    /* flex-basis: 80%; */
     display: flex;
     flex-wrap: wrap;
 }
