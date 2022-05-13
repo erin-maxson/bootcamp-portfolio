@@ -57,10 +57,11 @@ p {
 }
 
 figure {
+    display: flex;
     position: relative;
     text-align: center;
     color: white;
-    flex-basis: 100%;
+    flex-basis: 50%;
     width: auto;
 }
 
