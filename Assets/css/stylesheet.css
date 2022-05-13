@@ -60,7 +60,7 @@ figure {
     position: relative;
     text-align: center;
     color: white;
-    flex-basis: 80%;
+    flex-basis: 100%;
     width: auto;
 }
 
