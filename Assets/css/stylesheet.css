@@ -77,18 +77,17 @@ p {
 /* Figure formatting */
 figure {
     display: flex;
-    flex-basis: 100%;
+    flex-basis: 50%;
     position: relative;
     text-align: center;
     color: white;
     width: auto;
 }
 
-
-figure .Other-Projects {
+/* figure .Other-Projects {
     display: flex;
     flex-basis: 50%;
-}
+} */
 
 /* h3 formatting */
 h3 {
@@ -188,3 +187,6 @@ footer {
 }
 
 /* Media Query + Responsiveness */
+/* @media screen () {
+    
+} */
