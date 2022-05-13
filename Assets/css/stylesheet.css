@@ -6,6 +6,7 @@
     --body-font: 'Radio Canada';
 }
 
+/* Header Formatting */
 header {
     height: 120px;
     padding: 15px;
@@ -15,7 +16,7 @@ header {
     color: var(--header-fnt-color);
 }
 
-nav { 
+nav {
     padding: 30px;
 }
 
