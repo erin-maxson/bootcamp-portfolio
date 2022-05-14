@@ -93,7 +93,9 @@ figure .Other-Projects {
     flex-direction: row;
     /* flex-basis: 50%; */
     width: 50%;
-    object-fit: contain;
+    height: 200px;
+    align-content: center;
+    /* object-fit: contain; */
 }
 
 /* h3 formatting */
@@ -119,7 +121,7 @@ h4 {
     /* h4 font size = 16px */
     font-size: 25px;
     /* h4 font family */
-    font-family: 'Koulen';
+    font-family: var(--header-font);
 }
 
 footer {
@@ -180,11 +182,12 @@ footer {
 
 .Other-Projects {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     max-width: 80%;
-    flex-wrap: wrap;
     max-height: auto;
     justify-content: center;
+    padding: 10px;
 }
 
 .article {
