@@ -78,10 +78,17 @@ p {
 
 /* Figure formatting */
 figure#First-Project {
+    flex-basis: 100%;
     width: 100%;
+    height: 100%;
     position: relative;
     text-align: center;
     color: white;
+}
+
+.Content {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 figure.Other-Projects {
@@ -90,7 +97,7 @@ figure.Other-Projects {
     color: white;
     flex-basis: 50%;
     width: 50%;
-    height: 300px;
+    height: 500px;
 }
 
 figure.Other-Projects img {
@@ -149,25 +156,12 @@ footer {
     padding: 10px;
 }
 
-.Content {
-    display: flex;
-    flex-wrap: wrap;
-    /* justify-content: space-between; */
-}
-
 .About-Me {
     font-family: var(--header-font);
     display: right;
 }
 
-.Contact {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    background-color: var(--dark-color);
-    padding: 20px;
-    color: var(--bg-color);
-}
+
 
 .First-Project {
     width: 100%;
@@ -188,6 +182,16 @@ footer {
     font-size: 10px;
     background-color: turquoise;
     padding: 10px;
+}
+
+.Contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: var(--dark-color);
+    padding: 20px;
+    color: var(--bg-color);
+    width: 100%;
 }
 
 /* Media Query + Responsiveness */
