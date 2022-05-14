@@ -53,7 +53,7 @@ h2 {
     /* font family for h2 */
     font-family: var(--header-font);
     /* adding padding around h2 */
-    padding: 10px;
+    padding: 30px;
     /* h2 font color */
     color: var(--dark-color);
     /* h2 font size */
@@ -77,7 +77,7 @@ p {
 }
 
 /* Figure formatting */
-figure {
+figure #First-Project {
     display: flex;
     flex-wrap: wrap;
     flex-basis: 100%;
@@ -91,7 +91,8 @@ figure .Other-Projects {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    flex-basis: 50%;
+    /* flex-basis: 50%; */
+    width: 50%;
     object-fit: contain;
 }
 
@@ -104,7 +105,7 @@ h3 {
     /* h3 font family */
     font-family: var(--header-font);
     /* h3 font size */
-    font-size: 25px;
+    font-size: 30px;
     /* font color */
     color: var(--bg-color);
     /* background color */
@@ -116,7 +117,7 @@ h4 {
     /* h4 centered */
     text-align: center;
     /* h4 font size = 16px */
-    font-size: 16px;
+    font-size: 25px;
     /* h4 font family */
     font-family: 'Koulen';
 }
@@ -124,10 +125,10 @@ h4 {
 footer {
     text-align: center;
     font-size: 20px;
+    padding: 20px;
 }
 
 .Title {
-    flex-basis: 20%;
     border-right-color: var(--dark-color);
     border-right-width: 2px;
     border-right-style: solid;
@@ -136,18 +137,22 @@ footer {
 .About-Content img {
     display: flex;
     flex-wrap: wrap;
+    flex-basis: 100%;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    /* width: 50%; */
+    height: auto;
     border-radius: 400px;
     padding: 10px;
 }
 
-.left img {
-    display: center;
+/* .left img {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 200px;
     max-width: 100%;
     max-height: auto;
-}
+} */
 
 .Content {
     display: flex;
@@ -176,9 +181,10 @@ footer {
 .Other-Projects {
     display: flex;
     flex-direction: row;
-    width: 50%;
+    max-width: 80%;
     flex-wrap: wrap;
-    height: auto;
+    max-height: auto;
+    justify-content: center;
 }
 
 .article {
