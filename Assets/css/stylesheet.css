@@ -184,10 +184,11 @@ footer {
     padding: 10px;
 }
 
-.Contact {
+.Info {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    width: 100%;
     background-color: var(--dark-color);
     padding: 20px;
     color: var(--bg-color);
