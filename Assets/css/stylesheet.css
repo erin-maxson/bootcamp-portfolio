@@ -205,13 +205,15 @@ footer {
         flex-wrap: wrap;
         flex-basis: 100%;
         flex-direction: column;
-        /* width: 100%; */
     }
   }
 
 @media screen and (max-width: 768px) {
     main,
     nav {
+        display: flex;
+        flex-wrap: wrap;
+        flex-basis: 100%;
         flex-direction: column;
     }
   }
@@ -219,6 +221,9 @@ footer {
   @media screen and (max-width: 360px) {
     main,
     nav {
+        display: flex;
+        flex-wrap: wrap;
+        flex-basis: 100%;
         flex-direction: column;
     }
   }
