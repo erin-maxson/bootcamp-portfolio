@@ -92,7 +92,6 @@ figure {
 
 figure#First-Project {
     flex-basis: 100%;
-    flex-wrap:nowrap;
     width: 100%;
     padding: 10px;
     position: relative;
@@ -110,8 +109,8 @@ figure.Other-Projects {
 
 figure.Other-Projects img {
     width: 100%;
-    height: 100%;
-    padding: 10px;
+    height: auto;
+    padding: 5px;
 
 }
 
@@ -148,14 +147,12 @@ footer {
 }
 
 .About-Content img {
-    display: flex;
+    width: 100%;
+    height: auto;
     flex-wrap: wrap;
     flex-basis: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
     padding: 10px;
-    border-radius: 200px;
+    border-radius: 400px;
 }
 
 .First-Project-Img {
@@ -185,7 +182,7 @@ footer {
 
 #About-Me {
     font-family: var(--header-font);
-    width: 100%;
+    width: auto;
     height: auto;
     flex-wrap: wrap;
 }
