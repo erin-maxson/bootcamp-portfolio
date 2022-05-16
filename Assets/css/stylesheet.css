@@ -47,7 +47,6 @@ body {
     background-color: var(--bg-color);
     /* font family */
     font-family: var(--body-font);
-    display: flex;
 }
 
 /* h2 formatting */
@@ -97,6 +96,8 @@ figure#First-Project {
     position: relative;
     text-align: center;
     color: white;
+    float: left;
+    justify-content: center;
 
 }
 
@@ -109,11 +110,12 @@ figure.Other-Projects {
 }
 
 figure.Other-Projects img {
-    width: 50%;
+    width: 100%;
     flex-basis: 100%;
     flex-direction: column;
     height: auto;
     padding: 5px;
+    float: left;
 
 }
 
@@ -150,19 +152,29 @@ footer {
 }
 
 .About-Content img {
-    width: 100%;
+    width: 200px;
     height: auto;
-    flex-wrap: wrap;
-    flex-flow: row;
     flex-basis: 50%;
     padding: 10px;
     border-radius: 400px;
+    align-items: center;
 }
 
 .First-Project-Img img {
+    justify-content: center;
     width: 100%;
     height: auto;
+    max-width: auto;
 } 
+
+.first {
+    position: absolute;
+    bottom: 20px;
+    left: 235px;
+    font-size: 20px;
+    background-color: turquoise;
+    padding: 10px;
+}
 
 .article {
     position: absolute;
