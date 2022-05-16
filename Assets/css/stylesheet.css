@@ -18,7 +18,6 @@ header {
 
 /* Nav formatting */
 nav {
-    /* display: flex; */
     /* adds space between title + nav */
     padding: 30px;
     /* font-family for nav lists */
@@ -30,7 +29,6 @@ nav {
 Nav listings formatting */
  nav ul {
     width: 100%;
-    flex-direction: column;
     justify-content: space-evenly;
     font-size: 20px;
 } 
@@ -81,6 +79,7 @@ p {
     color: black;
 }
 
+/* All URL text decoration = none */
 a {
     text-decoration: none;
 }
@@ -89,12 +88,11 @@ a {
 
 figure {
     display: flex;
-    /* width: 100%; */
 }
 
 figure#First-Project {
     flex-basis: 100%;
-    flex-wrap: wrap;
+    flex-wrap:nowrap;
     width: 100%;
     padding: 10px;
     position: relative;
@@ -113,8 +111,7 @@ figure.Other-Projects {
 figure.Other-Projects img {
     width: 100%;
     height: 100%;
-    object-fit: contain;
-    flex-direction: row;
+    padding: 10px;
 
 }
 
@@ -161,27 +158,11 @@ footer {
     border-radius: 200px;
 }
 
-#About-Me {
-    font-family: var(--header-font);
-    width: 100%;
-    height: auto;
-    flex-wrap: wrap;
-}
-
-.First-Project img {
-    flex-basis: 100%;
+.First-Project-Img {
+   flex-basis: 100%;
     max-width: 100%;
     max-height: auto;
-}
-
-.Other-Projects img {
-    flex-basis: 50%;
-    flex-direction: row;
-    flex-wrap: wrap;
-    max-width: 100%;
-    max-height: auto;
-    padding: 10px;
-}
+} 
 
 .article {
     position: absolute;
@@ -200,6 +181,13 @@ footer {
     background-color: var(--dark-color);
     padding: 20px;
     color: var(--bg-color);
+}
+
+#About-Me {
+    font-family: var(--header-font);
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
 }
 
 /* Media Query + Responsiveness
